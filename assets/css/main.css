@@ -2684,6 +2684,7 @@ input, select, textarea {
 
 			.spotlight .image img {
 				border-radius: 0;
+				border: 5px solid #fff;
 				width: 100%;
 			}
 
