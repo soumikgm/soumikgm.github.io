@@ -2051,16 +2051,20 @@ input, select, textarea {
 			-webkit-transform: rotate(-45deg);
 			-ms-transform: rotate(-45deg);
 			transform: rotate(-45deg);
-			border-radius: 3px;
+			border-radius: 100%;
 			background: rgba(255, 255, 255, 0.075);
 			border: solid 2px #fff;
 			display: inline-block;
-			font-size: 1.35em;
+			font-size: 1.75em;
 			height: calc(3em + 2px);
 			line-height: 3em;
 			text-align: center;
 			width: calc(3em + 2px);
 		}
+			.icon.major:hover {
+				transform: scale(1.1) rotate(-45deg);
+				transition: 0.4s;
+			}
 
 			.icon.major:before {
 				-moz-transform: rotate(45deg);
@@ -3414,7 +3418,6 @@ input, select, textarea {
 			position: absolute;
 			right: 0;
 			top: 0;
-			vertical-align: middle;
 			width: 7em;
 		}
 
